@@ -2,47 +2,42 @@
 Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.5
-Tested up to: 3.9
-Stable tag: 0.7
+Tested up to: 3.9.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Group any number of widgets into one tabbed, light, and beautiful widget.
+Show all the widgets you love, forget about clutter.
 
 == Description ==
 
-Widgets In Tabs is an awesome plugin, that lets you group as many awesome widgets as you want, in one tabbed and beautiful widget, with dynamic styles, and a sleek transition between tabs.
+A must have plugin for elegent blogs. Integrates seamlessly with professional themes.
+With lots of customizations, make it yours.
 
-= Examples =
+You have many awesome plugins that you want to display on your website. However, being an elegent publisher, and having eyes of an artist, you cannot stand the clutter.
+Introducing Widgets In Tabs, or WIT for short. With WIT you can display all the widgets you love, as one tabbed, light, and beatiful widget.
 
-* You can use WIT to show Recent Posts Widget and Recent Comments Widget, as one widget with two tabs.
-* You might want to include a third tab to show Tag Cloud widget, or Categories widget.
-* Or perhabs you have a Facebook like box widget, and a Google badge widget, and you want them to be displayed as one widget with two tabs.
-* and the list goes on...
+With WIT, you can display Recent Posts, Recent Comments, Tag Cloud, and Categories widgets, as one lovely widget, with a sleek transition between them.
+Ever wanted to show a Facebook like box with a Google badge as one widget with two tabs? WIT can do that for you, only better than you imagined!
 
-Widgets In Tabs (WIT for short) adds a special widgets area (sidebar) and a new widget.
+= How it works =
+
+WIT adds a special widgets area (sidebar) and a new widget.
 This widgets area is special, because it will not appear anywhere in your site. It's just for the WIT plugin.
 You can add as many widgets as you want to the special widgets area, just like any other widget area.
 WIT widget will take all of those widgets, and turn them into one tabbed widget, light and beautiful.
 
-= Features: =
+= Features =
 
-* Dynamic Styles
-    * WIT uses the styles of your current theme. That means WIT doesn't have its own set of styles. Instead, it blends in with your theme's styles. You might want to check the screenshots tab!
-* Nice Scrollable Titles
-    * Instead of stacking widgets' titles, you get a one-line, scrollable titles.
-    * An option is also available to make all the tabs visible.
-* Animated Transition between Widgets
-    * You can even make it automatic, by choosing how many seconds to wait before switching to the next tab, with a sleek transition animation.
-* A shortcode to display WIT widget anywhere in a post or a page.
-    * The shortcode is simply `[wit]`. Add it anywhere inside your post or page, and WIT widget will magically appear there!
-    * See FAQ tab for more tips on this.
-* RTL support and Translation Ready
-    * It already has Arabic!
+* Integrates seamlessly with professional themes. Choose the theme you love, and watch WIT dressing the same.
+* Animated, customizable, and sleek transition between widgets.
+* Make the transition automatic with customizable interval.
+* Display WIT wherever you want, using the WIT shortcode. See FAQ for details.
+* RTL support and translation ready. It already has Arabic!
 
 = Spread The Word =
 
-WIT is released for FREE, and it will always be. If you like this plugin, share it and spread the wrod. This helps very much, Thanks.
+WIT is released for FREE, and it will always be. If you like this plugin, share it and spread the word. This helps very much, Thanks.
 
 * [Facebook](//www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.org%2Fplugins%2Fwidgets-in-tabs%2F)
 * [Twitter](//twitter.com/intent/tweet?text=Widgets%20In%20Tabs%20WordPress%20Plugin&url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fwidgets-in-tabs%2F)
@@ -73,19 +68,13 @@ The interval attribute only accepts integer values that are equal to or larger t
 The tab_style attribute only accepts 'show_all' or 'scroll'.
 If an inavlid value is provided, WIT will revert back to the default one.
 
-== WIT Next ==
-
-Some of the features to expect in the next releases:
-
-* More animations
-* More options
-
 == Credits ==
 
 WIT uses the following plugins:
 
 * [prefect-scrollbar](http://noraesae.github.io/perfect-scrollbar)
 * [jquery-mousewheel](http://github.com/brandonaaron/jquery-mousewheel)
+* [jQuery UI](http://jqueryui.com)
 
 == Screenshots ==
 
@@ -94,6 +83,13 @@ WIT uses the following plugins:
 3. WIT in 2014 default theme
 
 == Changelog ==
+
+= 1.0 =
+
+* NEW: lots of new transitions and customizations.
+* Fix: several enhancements.
+* Known issues
+    * scrollbar disappears on RTL websites on non-webkit browsers
 
 = 0.7 =
 
@@ -126,3 +122,8 @@ This version fixes a bug, upgrades dependencies, and improves performance. See C
 = 0.7 =
 
 This version fixes a bug and introduces new features. See Changelog for details.
+
+== Upgrade Notice ==
+
+= 1.0 =
+NEW transitions and customizations.
