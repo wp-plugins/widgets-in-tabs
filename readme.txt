@@ -11,11 +11,11 @@ Show all the widgets you love, forget about clutter.
 
 == Description ==
 
-A must have plugin for elegent blogs. Integrates seamlessly with professional themes.
+A must have plugin for elegant blogs. Integrates seamlessly with professional themes.
 With lots of customizations, make it yours.
 
-You have many awesome plugins that you want to display on your website. However, being an elegent publisher, and having eyes of an artist, you cannot stand the clutter.
-Introducing Widgets In Tabs, or WIT for short. With WIT you can display all the widgets you love, as one tabbed, light, and beatiful widget.
+You have many awesome plugins that you want to display on your website. However, being an elegant publisher, and having eyes of an artist, you cannot stand the clutter.
+Introducing Widgets In Tabs, or WIT for short. With WIT you can display all the widgets you love, as one tabbed, light, and beautiful widget.
 
 With WIT, you can display Recent Posts, Recent Comments, Tag Cloud, and Categories widgets, as one lovely widget, with a sleek transition between them.
 Ever wanted to show a Facebook like box with a Google badge as one widget with two tabs? WIT can do that for you, only better than you imagined!
