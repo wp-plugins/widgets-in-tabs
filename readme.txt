@@ -3,7 +3,7 @@ Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.5
 Tested up to: 3.9.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,11 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 1.2 =
+
+* NEW: pause animation while the user is interacting with WIT, then resume.
+* Enhanced transition.
+
 = 1.1 =
 
 * NEW: customize effect duration.
@@ -128,6 +133,10 @@ This version fixes a bug, upgrades dependencies, and improves performance. See C
 This version fixes a bug and introduces new features. See Changelog for details.
 
 == Upgrade Notice ==
+
+= 1.2 =
+
+NEW: pause animation while the user is interacting with WIT, then resume. Enhanced transition.
 
 = 1.1 =
 NEW: customize effect duration.
