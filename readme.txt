@@ -1,9 +1,9 @@
 === Widgets In Tabs ===
 Contributors: ahspw
-Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
+Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area, tab
 Requires at least: 3.5
-Tested up to: 3.9.2
-Stable tag: 1.2
+Tested up to: 4.0
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,10 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 1.3 =
+
+* NEW: customize height (fixed or adaptive).
+
 = 1.2 =
 
 * NEW: pause animation while the user is interacting with WIT, then resume.
@@ -124,18 +128,10 @@ initial release
 
 == Upgrade Notice ==
 
-= 0.5 =
-
-This version fixes a bug, upgrades dependencies, and improves performance. See Changelog for details.
-
-= 0.7 =
-
-This version fixes a bug and introduces new features. See Changelog for details.
-
-== Upgrade Notice ==
+= 1.3 =
+NEW: WIT now can have a fixed or adaptive height.
 
 = 1.2 =
-
 NEW: pause animation while the user is interacting with WIT, then resume. Enhanced transition.
 
 = 1.1 =
@@ -143,3 +139,11 @@ NEW: customize effect duration.
 
 = 1.0 =
 NEW transitions and customizations.
+
+= 0.7 =
+
+This version fixes a bug and introduces new features. See Changelog for details.
+
+= 0.5 =
+
+This version fixes a bug, upgrades dependencies, and improves performance. See Changelog for details.
