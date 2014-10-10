@@ -1,0 +1,2 @@
+/*! Widgets In Tabs */.area{background-color:#f8f8f8;border:1px solid #bbb;border-radius:.5em;padding:.5em;width:10em;color:#000}.area:hover{background:#fff;border:1px solid #bbb;box-shadow:0 1px 3px rgba(0,0,0,0.2)}.area input{padding:0;width:5em;border:0;background:0;box-shadow:none}
+.area-remove{width:1em;height:.5em;background-color:red;display:inline-block;float:right;margin-top:.4em;border-radius:.2em;cursor:pointer}.area-remove:hover{box-shadow:1px 1px 1px #aaa}.wit-error{color:#f00;font-style:italic}.wit-success{color:#090;font-style:italic}
