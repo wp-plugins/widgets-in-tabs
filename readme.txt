@@ -1,9 +1,9 @@
 === Widgets In Tabs ===
 Contributors: ahspw
-Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area, tab
+Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 1.3
+Tested up to: 3.9.2
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,44 +11,29 @@ Show all the widgets you love, forget about clutter.
 
 == Description ==
 
-A must have plugin for elegant blogs. Integrates seamlessly with professional themes.
-With lots of customizations, make it yours.
+Simple and elegant. WIT allows you to display all the widgets you love, without cluttering your site.
 
-You have many awesome plugins that you want to display on your website. However, being an elegant publisher, and having eyes of an artist, you cannot stand the clutter.
-Introducing Widgets In Tabs, or WIT for short. With WIT you can display all the widgets you love, as one tabbed, light, and beautiful widget.
-
-With WIT, you can display Recent Posts, Recent Comments, Tag Cloud, and Categories widgets, as one lovely widget, with a sleek transition between them.
-Ever wanted to show a Facebook like box with a Google badge as one widget with two tabs? WIT can do that for you, only better than you imagined!
 
 = How it works =
 
-WIT adds a special widgets area (sidebar) and a new widget.
-This widgets area is special, because it will not appear anywhere in your site. It's just for the WIT plugin.
-You can add as many widgets as you want to the special widgets area, just like any other widget area.
-WIT widget will take all of those widgets, and turn them into one tabbed widget, light and beautiful.
+1. WIT adds a speical sidebar and a special widget. Let's call them WIT sidebar, and WIT widget.
+2. The WIT sidebar is where you put all the widgets you love.
+3. The WIT widget is what turns them into one tabbed, light and beautiful widget.
+
+WIT sidebar is special, because it will not be displayed anywhere on your site. It's exclusively for WIT widget.
+WIT widget is special, because you should never ever add it to WIT sidebar! Too much of special is just, well, too much!
 
 = Features =
 
-* Integrates seamlessly with professional themes. Choose the theme you love, and watch WIT dressing the same.
-* Animated, customizable, and sleek transition between widgets.
-* Make the transition automatic with customizable interval.
-* Display WIT wherever you want, using the WIT shortcode. See FAQ for details.
-* RTL support and translation ready. It already has Arabic!
-
-= Spread The Word =
-
-WIT is released for FREE, and it will always be. If you like this plugin, share it and spread the word. This helps very much, Thanks.
-
-* [Facebook](//www.facebook.com/sharer.php?u=https%3A%2F%2Fwordpress.org%2Fplugins%2Fwidgets-in-tabs%2F)
-* [Twitter](//twitter.com/intent/tweet?text=Widgets%20In%20Tabs%20WordPress%20Plugin&url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fwidgets-in-tabs%2F)
-* [Google+](//plus.google.com/share?url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fwidgets-in-tabs%2F)
-* Or on your favorite social network!
-
-== Installation ==
-
-1. Install Widgets In Tabs either via the WordPress.org plugin directory, or by uploading the files to your server.
-2. Activate Widgets In Tabs through the 'Plugins' menu in WordPress.
-3. That's it. You're ready to go!
+* **Adaptive Style**: Integrates seamlessly with professional themes. Choose the theme you love, and watch WIT dressing the same.
+* **Unlimited Tabs**: Extra tabs are hidden behind a beatiful scrollbar. You can also display all tabs if you want.
+* **Animations**: Animated, customizable, and sleek transition between widgets.
+* **Customizable** Transitions: Be creative, and make your own transition recipe!
+* **Automatic Transition**: Make the transition automatic with customizable interval.
+* **User Friendly**: WIT is smart enough to never interrupt your visitors while they interact with it.
+* **Shortcode**: Display WIT wherever you want, using the WIT shortcode. See FAQ for details.
+* **Translation Ready**: RTL support and translation ready. It already has Arabic!
+* **Multiple instances with different widgets**. You can add as many extra WIT areas as you want.
 
 == Frequently Asked Questions ==
 
@@ -68,6 +53,10 @@ The interval attribute only accepts integer values that are equal to or larger t
 The tab_style attribute only accepts 'show_all' or 'scroll'.
 If an inavlid value is provided, WIT will revert back to the default one.
 
+= How to add extra WIT areas? =
+
+Go to Dashboard -> Appearance -> WIT.
+
 == Credits ==
 
 WIT uses the following plugins:
@@ -78,11 +67,20 @@ WIT uses the following plugins:
 
 == Screenshots ==
 
-1. WIT in 2012 default theme
-2. WIT in 2013 default theme
-3. WIT in 2014 default theme
+1. WIT Area
+2. WIT Widget
+3. WIT Options
+4. Extra WIT areas screen
+5. WIT in 2014 default theme
+6. WIT in 2013 default theme
+7. WIT in 2012 default theme
 
 == Changelog ==
+
+= 2.0 =
+
+* NEW: Multiple instances with different widgets
+* several enhancements
 
 = 1.3 =
 
@@ -128,6 +126,9 @@ initial release
 
 == Upgrade Notice ==
 
+= 2.0 =
+NEW: Multiple instances with different widgets plus several other enhancements.
+
 = 1.3 =
 NEW: WIT now can have a fixed or adaptive height.
 
@@ -141,7 +142,6 @@ NEW: customize effect duration.
 NEW transitions and customizations.
 
 = 0.7 =
-
 This version fixes a bug and introduces new features. See Changelog for details.
 
 = 0.5 =
