@@ -1,9 +1,9 @@
 === Widgets In Tabs ===
 Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
-Requires at least: 3.5
+Requires at least: 3.9.0
 Tested up to: 3.9.2
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,11 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 2.0.1 =
+
+* Bug fix: WIT TinyMCE plugin should now work with any page that uses the built in editor.
+* Enhancement: Better UX for the extra areas interface.
+
 = 2.0 =
 
 * NEW: Multiple instances with different widgets
@@ -125,6 +130,9 @@ WIT uses the following plugins:
 initial release
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+This release contains a bug fix and an enhancement, and requires at least WP 3.9.0.
 
 = 2.0 =
 NEW: Multiple instances with different widgets plus several other enhancements.
