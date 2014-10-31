@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.9.0
-Tested up to: 3.9.2
-Stable tag: 2.0.1
+Tested up to: 4.0
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,13 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 2.0.2 =
+
+* NEW: Add classical effects (without using jQuery UI Effects).
+* Enhancement: Use WP built-in jQuery UI rather than including it.
+* Enhancement: Simplify WIT widget options form.
+* Bug fix: Avoid JS conflicts with plugins that listens to click events.
+
 = 2.0.1 =
 
 * Bug fix: WIT TinyMCE plugin should now work with any page that uses the built in editor.
@@ -130,6 +137,9 @@ WIT uses the following plugins:
 initial release
 
 == Upgrade Notice ==
+
+= 2.0.2 =
+New effects, bug fixes and enhancements.
 
 = 2.0.1 =
 This release contains a bug fix and an enhancement, and requires at least WP 3.9.0.
