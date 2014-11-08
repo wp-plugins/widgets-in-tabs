@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widgets In Tabs v2.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-31 17:17:50+0000\n"
+"Last-Translator: Anas H. Sulaiman <ahs.pw>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: widgets-in-tabs.php:0
+#: widgets-in-tabs.php:124
+#: widgets-in-tabs.php:298
+#@ wit
+msgid "Widgets In Tabs"
+msgstr "ويدجتات في تابات"
+
+#. translators: plugin header field 'PluginURI'
+#: widgets-in-tabs.php:0
+#@ wit
+msgid "http://wordpress.org/plugins/widgets-in-tabs/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: widgets-in-tabs.php:0
+#: widgets-in-tabs.php:125
+#@ wit
+msgid "Show all the widgets you love, forget about clutter."
+msgstr "اعرض كل الويدجتات التي تحب، ولا تخش الفوضى."
+
+#. translators: plugin header field 'Author'
+#: widgets-in-tabs.php:0
+#@ wit
+msgid "Anas H. Sulaiman"
+msgstr "أنس هشام سليمان"
+
+#. translators: plugin header field 'AuthorURI'
+#: widgets-in-tabs.php:0
+#@ wit
+msgid "http://ahs.pw/"
+msgstr ""
+
+#: widgets-in-tabs.php:23
+#: widgets-in-tabs.php:40
+#@ wit
+msgid "Add widgets here to show them in WIT Widget. If you put WIT widget here, bad things will happen!"
+msgstr "أضف ويدجتات هنا، لتظهر مكان ويدجت WIT. لا تضع ويدجت WIT هنا وإلا حدثت أشياء سيئة!"
+
+#: widgets-in-tabs.php:180
+#@ wit
+msgid "Untitled"
+msgstr "دون عنوان"
+
+#: widgets-in-tabs.php:205
+#@ wit
+msgid "Go to Widgets"
+msgstr "الويدجتات"
+
+#: widgets-in-tabs.php:340
+#@ wit
+msgid "Scrollbar"
+msgstr "شريط تمرير"
+
+#: widgets-in-tabs.php:341
+#@ wit
+msgid "Show All"
+msgstr "إظهار الكل"
+
+#: widgets-in-tabs.php:359
+#@ wit
+msgid "Hide tab effect"
+msgstr "تأثير إخفاء التاب"
+
+#: widgets-in-tabs.php:371
+#@ wit
+msgid "Show tab effect"
+msgstr "تأثير إظهار التاب"
+
+#: widgets-in-tabs.php:383
+#@ wit
+msgid "Effect style:"
+msgstr "تتابع التأثيرات:"
+
+#: widgets-in-tabs.php:384
+#@ wit
+msgid "Parallel"
+msgstr "على التوازي"
+
+#: widgets-in-tabs.php:385
+#@ wit
+msgid "Sequential"
+msgstr "على التسلسل"
+
+#: widgets-in-tabs.php:388
+#@ wit
+msgid "Effect duration in milliseconds: (0 = disable)"
+msgstr "مدة التأثير بالميلي ثانية: (0 = تعطيل)"
+
+#: widgets-in-tabs.php:72
+#@ wit
+msgid "Widgets In Tabs Areas"
+msgstr "مساحات ويدجتات في تابات"
+
+#: widgets-in-tabs.php:73
+#@ wit
+msgid "From here you can add as many extra WIT areas as you want."
+msgstr "يمكنك إضافة ما تريد من مساحات WIT الإضافة من هنا."
+
+#: widgets-in-tabs.php:74
+#@ wit
+msgid "Add New Area"
+msgstr "إضافة مساحة WIT جديدة"
+
+#: widgets-in-tabs.php:77
+#@ wit
+msgid "Area"
+msgstr "مساحة"
+
+#: widgets-in-tabs.php:79
+#: widgets-in-tabs.php:91
+#@ wit
+msgid "Remove this area"
+msgstr "احذف هذه المساحة"
+
+#: widgets-in-tabs.php:99
+#@ wit
+msgid "Each area must have a different name! And don't use the + sign!"
+msgstr "يجب أن يكون لكل مساحة اسم مختلف! ولا تستخدم إشارة +!"
+
+#: widgets-in-tabs.php:100
+#@ wit
+msgid "Changes saved successfully"
+msgstr "تم حفظ التغييرات بنجاح"
+
+#: widgets-in-tabs.php:326
+#@ wit
+msgid "Something is wrong!"
+msgstr "هناك خطأ ما!"
+
+#: widgets-in-tabs.php:103
+#@ wit
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: widgets-in-tabs.php:79
+#: widgets-in-tabs.php:91
+#@ wit
+msgid "Delete"
+msgstr "حذف"
+
+#: widgets-in-tabs.php:80
+#: widgets-in-tabs.php:92
+#@ wit
+msgid "Edit area name"
+msgstr "عدل اسم المساحة"
+
+#: widgets-in-tabs.php:80
+#: widgets-in-tabs.php:92
+#@ wit
+msgid "Edit"
+msgstr "تعديل"
+
+#. translators: plugin header field 'Version'
+#: widgets-in-tabs.php:0
+#@ wit
+msgid "2.0.2"
+msgstr ""
+
+#: widgets-in-tabs.php:319
+#@ wit
+msgid "All widgets added to the selected area will appear as tabs in place of this widget."
+msgstr "ستظهر كل الويدجتات المضافة إلى المساحة المختارة على شكل تابات مكان هذه الويدجت."
+
+#: widgets-in-tabs.php:339
+#@ wit
+msgid "Tabs bar style:"
+msgstr "شكل شريط التابات:"
+
+#: widgets-in-tabs.php:344
+#@ wit
+msgid "Widgets have different heights"
+msgstr "لكل ويدجت ارتفاع مختلف"
+
+#: widgets-in-tabs.php:346
+#@ wit
+msgid "Allow WIT to change its height"
+msgstr "اسمح لويدجت WIT بتغيير ارتفاعها"
+
+#: widgets-in-tabs.php:347
+#@ wit
+msgid "Keep WIT height fixed"
+msgstr "ليكن لويدجت WIT ارتفاع ثابت"
+
+#: widgets-in-tabs.php:351
+#@ wit
+msgid "Auto-Rotate tabs every: (0 = disable)"
+msgstr "بدل التابات تلقائياً كل: (0 = تعطيل)"
+
+#: widgets-in-tabs.php:321
+#@ wit
+msgid "Show widgets from the following area"
+msgstr "اعرض ويدجتات من المساحة التالية"
+
