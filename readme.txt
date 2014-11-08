@@ -3,7 +3,7 @@ Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.9.0
 Tested up to: 4.0
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -77,6 +77,10 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 2.0.3 =
+
+* Bug fix: cannot add new area after deleting all areas
+
 = 2.0.2 =
 
 * NEW: Add classical effects (without using jQuery UI Effects).
@@ -137,6 +141,9 @@ WIT uses the following plugins:
 initial release
 
 == Upgrade Notice ==
+
+= 2.0.3 =
+Bug fix.
 
 = 2.0.2 =
 New effects, bug fixes and enhancements.
