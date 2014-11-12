@@ -3,7 +3,7 @@ Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.9.0
 Tested up to: 4.0
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,7 +63,6 @@ WIT uses the following plugins:
 
 * [prefect-scrollbar](http://noraesae.github.io/perfect-scrollbar)
 * [jquery-mousewheel](http://github.com/brandonaaron/jquery-mousewheel)
-* [jQuery UI](http://jqueryui.com)
 
 == Screenshots ==
 
@@ -76,6 +75,10 @@ WIT uses the following plugins:
 7. WIT in 2012 default theme
 
 == Changelog ==
+
+= 2.0.4 =
+
+* Bug fix: Overlapping tabs on Chrome and Safari (introduced in version 2.0.2).
 
 = 2.0.3 =
 
@@ -141,6 +144,9 @@ WIT uses the following plugins:
 initial release
 
 == Upgrade Notice ==
+
+= 2.0.4 =
+Bug fix.
 
 = 2.0.3 =
 Bug fix.
