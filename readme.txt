@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.9.0
-Tested up to: 4.0
-Stable tag: 2.0.4
+Tested up to: 4.0.1
+Stable tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,14 @@ The interval attribute only accepts integer values that are equal to or larger t
 The tab_style attribute only accepts 'show_all' or 'scroll'.
 If an inavlid value is provided, WIT will revert back to the default one.
 
+**Important**
+
+If you are using multiple WIT instances with the same area, you MUST specify a unique id for each instance to avoid invalid HTML on your blog, although WIT will attempt to avoid that anyways.
+Example:
+
+* `[wit area='my-special-wit' id='wit1']`
+* `[wit area='my-speical-wit' id='wit2']`
+
 = How to add extra WIT areas? =
 
 Go to Dashboard -> Appearance -> WIT.
@@ -63,6 +71,7 @@ WIT uses the following plugins:
 
 * [prefect-scrollbar](http://noraesae.github.io/perfect-scrollbar)
 * [jquery-mousewheel](http://github.com/brandonaaron/jquery-mousewheel)
+* [jQuery hashchange event](http://benalman.com/projects/jquery-hashchange-plugin/)
 
 == Screenshots ==
 
@@ -76,15 +85,28 @@ WIT uses the following plugins:
 
 == Changelog ==
 
+= 2.1.0 =
+
+*06 Dec 2014*
+
+* NEW: Link to a specific tab within WIT.
+* Bug fix: Invalid HTML when multiple WITs show the same area.
+
 = 2.0.4 =
+
+*12 Nov 2014*
 
 * Bug fix: Overlapping tabs on Chrome and Safari (introduced in version 2.0.2).
 
 = 2.0.3 =
 
-* Bug fix: cannot add new area after deleting all areas
+*08 Nov 2014*
+
+* Bug fix: cannot add new area after deleting all areas.
 
 = 2.0.2 =
+
+*31 Oct 2014*
 
 * NEW: Add classical effects (without using jQuery UI Effects).
 * Enhancement: Use WP built-in jQuery UI rather than including it.
@@ -93,28 +115,40 @@ WIT uses the following plugins:
 
 = 2.0.1 =
 
+*17 Oct 2014*
+
 * Bug fix: WIT TinyMCE plugin should now work with any page that uses the built in editor.
 * Enhancement: Better UX for the extra areas interface.
 
 = 2.0 =
 
-* NEW: Multiple instances with different widgets
-* several enhancements
+*10 Oct 2014*
+
+* NEW: Multiple instances with different widgets.
+* Several enhancements.
 
 = 1.3 =
+
+*09 Sep 2014*
 
 * NEW: customize height (fixed or adaptive).
 
 = 1.2 =
+
+*01 Sep 2014*
 
 * NEW: pause animation while the user is interacting with WIT, then resume.
 * Enhanced transition.
 
 = 1.1 =
 
+*23 Aug 2014*
+
 * NEW: customize effect duration.
 
 = 1.0 =
+
+*10 Aug 2014*
 
 * NEW: lots of new transitions and customizations.
 * Fix: several enhancements.
@@ -123,27 +157,36 @@ WIT uses the following plugins:
 
 = 0.7 =
 
-* Bugfix: each WIT instance should have its own unique options
-* New: Option to show all tabs instead of a scrollbar
-* New: Shortcode to display WIT widget anywhere inside a page or a post
-* New: Editor button for WIT shortcode
-* Known issues
-    * scrollbar disappears on RTL websites on non-webkit browsers
-    * the sidebar to which WIT is added will have a long height depending on how many tabs WIT has
+*25 Apr 2014*
+
+* Bugfix: each WIT instance should have its own unique options.
+* New: Option to show all tabs instead of a scrollbar.
+* New: Shortcode to display WIT widget anywhere inside a page or a post.
+* New: Editor button for WIT shortcode.
+* Known issues:
+    * scrollbar disappears on RTL websites on non-webkit browsers.
+    * the sidebar to which WIT is added will have a long height depending on how many tabs WIT has.
 
 = 0.5 =
 
-* Bugfix: when animation is disabled, clicking on a tab causes crazy animation
-* Dependencies upgraded
-* Code reviewed and some parts rewritten
-* WIT widget in admin area is now unique!
-* Known issues: scrollbar disappears on RTL websites on non-webkit browsers
+*22 Apr 2014*
+
+* Bugfix: when animation is disabled, clicking on a tab causes crazy animation.
+* Dependencies upgraded.
+* Code reviewed and some parts rewritten.
+* WIT widget in admin area is now unique!.
+* Known issues: scrollbar disappears on RTL websites on non-webkit browsers.
 
 = 0.1 = 
 
-initial release
+*14 Apr 2014*
+
+Initial release.
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+New feature and a bug fix.
 
 = 2.0.4 =
 Bug fix.
