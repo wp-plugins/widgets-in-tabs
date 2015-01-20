@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: tabs, tabbed, widget, tabbed widget, theme, sidebar, widget area
 Requires at least: 3.9.0
-Tested up to: 4.0.1
-Stable tag: 2.1.0
+Tested up to: 4.1
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,17 @@ WIT uses the following plugins:
 7. WIT in 2012 default theme
 
 == Changelog ==
+
+= 2.2.0 =
+
+*18 Jan 2015*
+
+* Bug fix:      If URL contains WIT hash, the selected effect should now fire once instead of twice.
+* Bug fix:      If WIT has only one widget, do not rotate.
+* Enhancement:  WIT should now be compatible with dynamic widgets
+* Change:       Default effect duration is now 600ms, and default effect style is now sequential.
+* NEW:          Extra feature: Hide current tab if its title is clicked.
+* NEW:          Extra feature: Remember last shown tabs when page is reloaded
 
 = 2.1.0 =
 
@@ -184,6 +195,9 @@ WIT uses the following plugins:
 Initial release.
 
 == Upgrade Notice ==
+
+= 2.2.0 =
+New features, enhancements and bug fixes.
 
 = 2.1.0 =
 New feature and a bug fix.
